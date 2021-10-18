@@ -1,0 +1,61 @@
+#div1{
+    height : 150px;
+    width : 50%;
+    box-sizing: border-box;
+    min-width: 250px;
+    max-width: 300px;
+    overflow: auto;
+    background-color: blue;
+    border : 2px solid red;
+    padding: 2px;
+    margin : 2px
+    
+    
+}
+#div2{
+    height : 200px;
+    width : 200px;
+    background-color: red;
+    border : 2px solid black;
+    padding: 2px;
+    margin : 2px
+}
+
+#div3{
+    height : 200px;
+    width : 200px;
+    background-color: yellow;
+}
+
+p:active{
+    background-color: aqua;
+}
+a:active{
+    color:yellow;
+}
+a:visited{
+    color : green;
+}
+#lightbox{
+    height: 0px;
+    width: 0px;
+    position:fixed;
+    top : 0px;
+    left: 0px;
+    overflow: hidden;
+    transition: all 2s ease-in-out ;
+
+}
+#lightbox:target{
+    height: 30%;
+    width: 30%;
+    top : 25% ;
+    left : 25% ;
+    background-color: aqua;
+
+}
+.style-first-element::first-letter{ /*first-line*/
+    font-size: 2rem; 
+    font-weight: 400;
+    text-transform: capitalize;
+}

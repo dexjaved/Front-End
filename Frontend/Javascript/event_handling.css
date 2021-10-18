@@ -1,0 +1,25 @@
+#box{
+    height : 200px;
+    width : 200px;
+     background-color: rgb(36, 32, 32);
+     /* margin: 100px auto; */
+     cursor: pointer;
+}
+
+#box:hover{
+    background-color: aqua;
+    box-shadow: 10px 0px 30px green;
+}
+h1{
+    /* text-align: center; */
+}
+
+/* mouse over mouse out*/
+#outer{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    cursor: pointer;
+    border : 2px solid greenyellow;
+    margin : 10px auto
+}

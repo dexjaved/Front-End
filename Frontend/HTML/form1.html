@@ -1,0 +1,84 @@
+<!doctype html>
+<html> 
+     <head> </head>
+     <body>
+         <form action="" method="post">
+           <div>
+               <label for="ussername"> Ussername </label> <br>
+                <input type ="text" name="ussername" id="ussername" required placeholder ="abc@google.com">
+           </div>    
+           <div> 
+                <label for="password"> Password </label> <br>
+                <input type="password" name="password" id="password" required placeholder=" password">
+           </div>
+           <div> 
+                <label for="country"> Country </label>
+                <input type ="text" name ="country" id="country" value="India">
+           </div>
+           <div> 
+               
+                <input type="submit" name="submit"> 
+           </div>
+        </form>
+
+        <form> 
+            <fieldset>
+            <legend> Gender </legend>
+            <input type="radio" name="gender" value="male" checked> Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            </fieldset>
+        </form>
+
+        <form> 
+            <p> Choose Course </p>
+            <input  type="checkbox" name="course" value="c++"> C++ <br>
+            <input type="checkbox" name="course"  value="java"> JAVA <br>
+            <input type="checkbox" name="course" value="fullstack"> fullstack <br>
+            <input type="submit">
+        </form>
+        <br>
+        <form>
+            <p> Select Country</p>
+            <select name="select" >
+                <option value="india" selected> India </option>
+                <option value="pakistan"> Pakistan </option>
+                <option value="china"> China </option>
+                <option value="america"> America </option>
+                <option valie="russia"> Russia </option>
+            </select>    
+        </form>
+        <from>
+            <select name="select1">
+                <optgroup label="Course">
+                <option value="java"> Java </option>
+                <option value="c++"> C++ </option>
+                <option value="web"> Web </option>
+                <option value="Android"> Android </option> 
+                </optgroup>
+                <optgroup label="Placement">
+                <option value="Placement"> Placement++</option>
+                <option value="GIT"> GIT</option>  
+                <option value="Aptitute"> Aptitute</option>
+                </optgroup>
+            </select>
+        </from>
+        <div>
+        <label> Write about your Experience </label> <br>
+        <textarea rows="10" cols="20"> </textarea>
+        </div>
+        <input  type="submit" value="submit form"> <br>
+
+        <button type="submit" onclick="alert('Abbey Saale')" > 
+            <img src="image/Google.png" height="25" width="30"> Submit
+        </button>
+
+        <button onclick="location.href='https://www.google.com/'"> Google </button>
+
+
+
+
+
+
+
+     </body>
+</html>

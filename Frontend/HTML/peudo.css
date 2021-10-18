@@ -1,0 +1,71 @@
+p:active{
+    background-color: yellow;
+}
+a:active{
+    color :red;
+}
+a:visited{
+    color:green;
+}
+
+#lightbox{
+    height: 0px;
+    width: 0px;
+    position: fixed;
+    top :10%;
+    left: 0px;   
+    overflow: hidden;
+    transition : all 1s ease-in-out;
+}
+
+#lightbox:target{
+    height: 30%;
+    width: 30%;
+    top : 25%;
+    left: 25%;
+    background-color: aqua;
+}
+
+/* this change all the <p> tag*/
+
+/* p::first-letter{
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+} */ /
+
+ .style-first-letter::first-letter{
+     font-size: 2rem;
+     font-weight: 200;
+     text-transform: capitalize;
+ }
+
+ .before::before{
+     content : "pehle";
+     font-size: 2rem;
+     font-weight: 200;
+     text-transform: capitalize;
+
+ }
+ 
+ .before::after{
+     content : "baadme";
+     font-size : 2rem;
+     font-weight: 200;
+     text-transform: capitalize;
+
+ }
+ ul{
+     list-style: none;
+ }
+
+ li::before{
+     content : '';
+     background-image: url(image/Google.png);
+     display: inline-block;
+     height : 30px;
+     width : 30x;
+     background-size: contain;
+
+    }
+

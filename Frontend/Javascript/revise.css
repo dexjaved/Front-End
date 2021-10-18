@@ -1,0 +1,66 @@
+#box{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    cursor : pointer;
+    margin : 100px auto;
+ }
+
+ #outer{
+     margin : 50px;
+     padding: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-sizing: border-box;
+    
+ }
+ #inner{
+    
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    
+ }
+ #div1{
+     border : 2ps solid black;
+    height: 100px;
+    width: 200px;
+    overflow: scroll;
+    
+ }
+
+ #toggle {
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+#circle {
+    width: 38px;
+    height: 38px;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 1px;
+    transition-duration: 1s;
+    margin-left: 1px;
+}
+
+h1 {
+    color : red;
+}
+p{
+    color : green;
+}
+
+.color-white {
+    color: white;
+}
+
+.bck-color-black {
+    background-color: black;
+}

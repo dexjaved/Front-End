@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Table</title>
+        <!--Internal CSS-->
+        <!--<style type="text/css"> 
+
+            p{
+                color:red;
+                font-size: 30px;
+            }
+            th{
+                color : blue;
+            }
+            td{
+                color: red;
+            }
+            
+            border{
+                color: blueviolet;
+            }
+        </style> -->
+        <link rel="stylesheet" type="text/css" href="table.css">
+    </head>
+    <body>
+        <table border="2">
+            <!-- table heading/caption just after the table-->
+            <caption style = "color : blue; font-size:20px"> <h2 id="glow">Bill Book</h2> </caption>
+            <tr>
+                <th colspan="2"> Schedule </th>
+                <th colspan ="3"> Product </th>
+            </tr>
+            <tr>
+                <th rowspan="2"> Day </th>
+                <th rowspan="2"> Time </th>
+                <th rowspan="2"> Item </th>
+                <th colspan="2"> Shipping Deatils </th>
+            </tr>
+            <tr>
+                
+                <th> Quantity </th>
+                <th> Cost </th>
+            </tr>
+            <tr>
+                <td rowspan="6">MONDAY </td>
+                <td rowspan="3">10:00 AM</td>
+                <td class ="uppercase cursive"> Bag</td>
+                <td> 10 </td>
+                <td rowspan="3"> 2000.00 </td>
+            </tr>
+            <tr>
+                <td class="cursive" id="ptag"> T-shirt </td>
+                <td> 10 </td>
+            </tr>
+            <tr>
+                <td>Notebook</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1:00 PM</td>
+                <td> T-shirt </td>
+                <td> 20 </td>
+                <td rowspan="2"> 1300.00 </td>
+            </tr>
+            <tr> 
+                <td> Notebook</td>
+                <td> 15 </td>
+            </tr>
+            <tr>
+                <td> 5:00 PM </td>
+                <td> Bag </td>
+                <td> 8 </td>
+                <td> 800.00 </td>
+            </tr>
+            <tr>
+                <td rowspan="5">  TUESDAY</td>
+                <td rowspan="3"> 12:00 PM </td>
+                <td> Bag </td>
+                <td> 8 </td>
+                <td rowspan="3"> 2100.00 </td>
+            </tr>
+            <tr>
+                <td> T-shirt</td>
+                <td>  12 </td>
+            </tr>
+            <tr>
+                <td> Notebook </td>
+                <td>  22 </td>
+            </tr>
+            <tr> 
+                <td rowspan="2"> 1:00 PM</td>
+                <td> T-shirt </td>
+                <td> 10 </td>
+                <td rowspan="2"> 600.00 </td>
+            </tr>
+            <tr>
+                <td> Notebook </td>
+                <td> 10 </td>
+            </tr>
+        </table>
+        <p> Hello </p>
+        <p id="ptag"> world </p>
+    </body>
+</html>
